@@ -11,9 +11,9 @@ syntax and type checking of Haskell code, and retrieving type information, all
 directly from within your text editor.
 
 The advantage that `hdevtools` has over competitors, is that it runs silently
-in a persistent background process, and therefore is able to keeps all of your
+in a persistent background process, and is therefore able to keep all of your
 Haskell modules and dependent libraries loaded in memory. This way, when you
-change only a single source file, only it needs to be reloaded and rechecked,
+change only a single source file, only the file changed needs to be reloaded and rechecked,
 instead of having to reload everything.
 
 This makes `hdevtools` very fast for checking syntax and type errors (runs just
